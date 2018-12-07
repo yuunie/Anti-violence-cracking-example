@@ -31,7 +31,7 @@
 
                 // 取出的数据可能有问题的时候使用
                 if ($oktime > 100000 || $oktime < -100000) {
-                    $oktime == 1;
+                    $oktime == -1;
                 }
 
                 if ($oktime <= 0) {
